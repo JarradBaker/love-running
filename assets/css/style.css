@@ -131,10 +131,25 @@ h1, h2 {
     float: left;
 }
 
-.left-about-heading {
+hr {
+    border-top: 2px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+}
+
+.left-about-heading, .right-about-heading {
     width: 60%;
     float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
+
+.right-about-heading {
+    float: left;
+}
+
+.right-about-heading h2, .right-about-heading p {
+    text-align: right;
+}
+
